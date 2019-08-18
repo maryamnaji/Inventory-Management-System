@@ -1,0 +1,54 @@
+2018/11/03
+1.Searching and getting information
+2.Working on proposal
+3.Installing the same visual studio
+4.Review SQL Server
+5.Designing customers window
+6.Designing order window
+7.Designing category window
+8.Designing user window
+9.Designing Order detail window
+10.Searching about new technoligy we are asked such as Tab Control
+
+2018/11/05
+1.Creating login window
+2.Applying Entityframework on our project
+http://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx
+3.Creating wpf of User,Customer,product and order windows
+
+2018/11/06
+1.User viewModel(Creating  behind code  of user window)
+2.Customer viewModel(Creating  behind code  of Customer window)
+3.Product viewModel(Creating  behind code  of product user window)
+4.User viewModel(Creating  behind code  of order user window)
+
+2018/11/07
+1.Binding  code  of user window and User viewModel
+2.Binding code  of Customer window and Customer viewModel
+3.Binding code  of product user window and product viewModel
+4.Binding code  of order user window and user viewModel
+
+2018/11/08
+1.Implementing needed style in xaml files of windows
+2.Working on MVVM structure 
+
+2018/11/09
+1.Start implementing MVVM structure
+
+2018/11/10
+Working on MVVM Architecture and using needed class such as
+Relay
+INotify
+Unit test
+
+2018/11/12
+Preparing presentation 
+Testing & debuging Program
+
+
+
+
+
+
+
+
