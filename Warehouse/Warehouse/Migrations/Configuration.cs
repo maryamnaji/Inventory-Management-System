@@ -1,4 +1,4 @@
-namespace Warehouse.Migrations
+﻿namespace Warehouse.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -10,13 +10,15 @@ namespace Warehouse.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
-
-        //define database with seed data
         protected override void Seed(Warehouse.Models.WarehouseDbContext context)
         {
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
+            //  to avoid creating duplicate seed data.
             context.Users.AddOrUpdate(new User { Name = "System", Email = "admin@ims.com", Password = "123456" });
         }
     }
